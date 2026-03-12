@@ -54,6 +54,32 @@
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
         }
+
+        /* Mission Section Flexbox */
+        .mission-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .profile-photo {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+        }
+        .profile-photo img {
+            width: 100%;
+            max-width: 220px;
+            border-radius: 50%; /* Makes it a circle */
+            border: 4px solid #2c3e50;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        .mission-text {
+            flex: 2;
+            min-width: 300px;
+        }
+
         .project-card {
             background: #f9f9f9;
             border-left: 5px solid #f39c12;
@@ -91,9 +117,16 @@
     </nav>
 
     <main>
-        <section>
-            <h2>The Mission</h2>
-            <p>I am a technical professional in training at <strong>i.c.stars</strong>, building solutions for HR Analytics and People Operations. This portfolio documents my technical and leadership growth across a rigorous 14-week internship.</p>
+        <section class="mission-container">
+            <div class="profile-photo">
+                <img src="assets/images/oksana.jpg" alt="Oksana Cromley">
+            </div>
+            
+            <div class="mission-text">
+                <h2>The Mission</h2>
+                <p>I am a technical professional in training at <strong>i.c.stars</strong>, building solutions for HR Analytics and People Operations. This portfolio documents my technical and leadership growth across a rigorous 14-week internship.</p>
+                <p>My goal is to leverage data-driven insights to improve organizational culture and operational efficiency.</p>
+            </div>
         </section>
 
         <section>
