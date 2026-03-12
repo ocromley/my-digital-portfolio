@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oksana Cromley | i.c.stars Portfolio</title>
     <style>
-        /* Professional Styling */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
@@ -40,9 +39,6 @@
             text-decoration: none;
             font-weight: bold;
         }
-        nav a:hover {
-            color: #f39c12;
-        }
         main {
             background: white;
             padding: 30px;
@@ -54,6 +50,8 @@
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
         }
+
+        /* Mission Section Flexbox */
         .mission-container {
             display: flex;
             align-items: center;
@@ -63,20 +61,21 @@
         }
         .profile-photo {
             flex: 1;
-            min-width: 200px;
+            min-width: 150px; /* Adjusted for smaller photo */
             text-align: center;
         }
-     .profile-photo img {
+        .profile-photo img {
             width: 100%;
-            max-width: 140px; /* We have reduced the size for a subtle look */
-            border-radius: 50%; /* Maintains the modern circle crop */
-            border: 3px solid #2c3e50; /* A slightly thinner border for the smaller photo */
+            max-width: 140px; /* SMALLER PHOTO SIZE */
+            border-radius: 50%; 
+            border: 3px solid #2c3e50;
             box-shadow: 0 4px 10px rgba(0,0,0,0.15);
         }
         .mission-text {
             flex: 2;
             min-width: 300px;
         }
+
         footer {
             margin-top: 40px;
             text-align: center;
@@ -132,7 +131,7 @@
         <p>&copy; 2026 | Oksana Cromley | i.c.stars C59 Portfolio</p>
         <div class="footer-links">
             <a href="https://github.com/ocromley" target="_blank">GitHub</a> | 
-            <a href="https://www.linkedin.com/in/oksana-cromley/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            <a href="https://www.linkedin.com/in/oksana-cromley/" target="_blank">LinkedIn Profile</a>
         </div>
     </footer>
 
