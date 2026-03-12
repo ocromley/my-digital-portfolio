@@ -3,44 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Planning | i.c.stars Portfolio</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Career | Oksana Cromley Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        main {
+            background: white;
+            padding: 30px;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 { color: #2980b9; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        
+        /* Resume Button Styling */
+        .resume-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .btn-resume {
+            background-color: #f39c12;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn-resume:hover { background-color: #d35400; }
+
+        /* Project Case Study Styling */
+        .project-highlight {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-left: 8px solid #2980b9;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+        .tech-stack {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .tag {
+            background: #e8f4fd;
+            color: #2980b9;
+            padding: 4px 10px;
+            font-size: 0.85em;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
 </head>
 <body>
 
-    <nav>
-        <a href="../index.html">← Back to Home</a>
-    </nav>
-
     <header>
-        <h1>Career Planning & Professional Brand</h1>
-        <p>Preparing for the next phase of my journey in technology.</p>
+        <h1>Career & Professional Growth</h1>
+        <p>Technical Professional | i.c.stars Internship C59</p>
     </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="leadership.html">Leadership</a>
+        <a href="wellness.html">Wellness</a>
+        <a href="business.html">Business</a>
+        <a href="career.html" style="color: #f39c12;">Career</a>
+    </nav>
 
     <main>
         <section>
-            <h2>Professional Resume</h2>
-            <p>Click the link below to view or download my current resume.</p>
-            <a href="../assets/docs/Oksana_Cromley_Resume.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #f39c12; color: white; text-decoration: none; border-radius: 5px;">Download Resume</a>
+            <h2>Professional Summary</h2>
+            <p>During my residency at i.c.stars, I have developed a unique intersection of <strong>technical skill</strong> and <strong>business logic</strong>. My focus is on utilizing data to drive People Operations and improve organizational health.</p>
+            
+            <div class="resume-container">
+                <a href="../assets/Oksana_Cromley_Resume.pdf..pdf" class="btn-resume" target="_blank">Download My Resume (PDF)</a>
+            </div>
         </section>
 
         <section>
-            <h2>Professional Networking</h2>
-            <p>Connect with me on LinkedIn to discuss data analytics and web development.</p>
-            <a href="https://www.linkedin.com/in/oksana-cromley" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 20px; background-color: #0077b5; color: white; text-decoration: none; border-radius: 5px;">View My LinkedIn Profile</a>
-        </section>
+            <h2>Project Spotlight: Orange Coeur</h2>
+            <div class="project-highlight">
+                <h3>The Challenge</h3>
+                <p>Developing a consulting solution for HR data visualization, focusing on making complex data digestible for stakeholders.</p>
+                
+                <h3>My Contributions</h3>
+                <ul>
+                    <li>Designed user-centered dashboards for HR performance tracking.</li>
+                    <li>Collaborated on UI/UX mockups to ensure intuitive data navigation.</li>
+                    <li>Integrated feedback loops to align technical output with business goals.</li>
+                </ul>
 
-        <section>
-            <h2>Career Goals</h2>
-            <ul>
-                <li><strong>Short-term:</strong> Secure a Data Analyst or Junior Web Developer role post-graduation.</li>
-                <li><strong>Long-term:</strong> Transition into Technical Project Management or HR Technology Leadership.</li>
-            </ul>
+                <div class="tech-stack">
+                    <span class="tag">UI/UX Design</span>
+                    <span class="tag">HR Analytics</span>
+                    <span class="tag">Stakeholder Management</span>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer style="text-align: center; padding: 20px; font-family: sans-serif;">
-        <p>&copy; 2026 | Oksana Cromley | i.c.stars C59</p>
+    <footer>
+        <p>&copy; 2026 | Oksana Cromley | i.c.stars Portfolio</p>
     </footer>
 
 </body>
