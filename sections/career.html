@@ -32,6 +32,8 @@
             font-weight: bold;
             margin: 0 15px;
         }
+        nav a:hover { color: #f39c12; }
+        
         main {
             background: white;
             padding: 30px;
@@ -40,43 +42,44 @@
         }
         h2 { color: #2980b9; border-bottom: 2px solid #eee; padding-bottom: 10px; }
         
-        /* Resume Button Styling */
-        .resume-container {
+        /* Resume Section */
+        .resume-cta {
+            background: #eef2f7;
+            padding: 20px;
+            border-radius: 8px;
             text-align: center;
-            margin: 30px 0;
+            margin: 20px 0;
         }
-        .btn-resume {
-            background-color: #f39c12;
+        .btn-download {
+            display: inline-block;
+            background: #f39c12;
             color: white;
             padding: 12px 25px;
             text-decoration: none;
             font-weight: bold;
             border-radius: 5px;
-            transition: background 0.3s;
+            margin-top: 10px;
         }
-        .btn-resume:hover { background-color: #d35400; }
+        .btn-download:hover { background: #e67e22; }
 
-        /* Project Case Study Styling */
-        .project-highlight {
-            background: #fff;
+        /* Project Spotlight */
+        .project-card {
             border: 1px solid #ddd;
-            border-left: 8px solid #2980b9;
-            padding: 25px;
-            margin-top: 20px;
+            border-left: 6px solid #f39c12;
+            padding: 20px;
+            margin: 20px 0;
             border-radius: 4px;
         }
-        .tech-stack {
-            display: flex;
-            gap: 10px;
+        .tech-tags {
             margin-top: 15px;
         }
         .tag {
-            background: #e8f4fd;
-            color: #2980b9;
+            background: #2c3e50;
+            color: white;
             padding: 4px 10px;
-            font-size: 0.85em;
+            font-size: 0.8em;
             border-radius: 3px;
-            font-weight: bold;
+            margin-right: 5px;
         }
         footer {
             margin-top: 40px;
@@ -89,8 +92,8 @@
 <body>
 
     <header>
-        <h1>Career & Professional Growth</h1>
-        <p>Technical Professional | i.c.stars Internship C59</p>
+        <h1>Career & Professional Journey</h1>
+        <p>Technical Professional | HR Analytics | People Operations</p>
     </header>
 
     <nav>
@@ -98,43 +101,44 @@
         <a href="leadership.html">Leadership</a>
         <a href="wellness.html">Wellness</a>
         <a href="business.html">Business</a>
-        <a href="career.html" style="color: #f39c12;">Career</a>
+        <a href="career.html">Career</a>
     </nav>
 
     <main>
         <section>
             <h2>Professional Summary</h2>
-            <p>During my residency at i.c.stars, I have developed a unique intersection of <strong>technical skill</strong> and <strong>business logic</strong>. My focus is on utilizing data to drive People Operations and improve organizational health.</p>
+            <p>I am a technical professional in training at <strong>i.c.stars</strong>, focusing on the intersection of HR Analytics and People Operations. My goal is to leverage data to build stronger, more efficient organizational cultures.</p>
             
-            <div class="resume-container">
-                <a href="../assets/Oksana_Cromley_Resume.pdf..pdf" class="btn-resume" target="_blank">Download My Resume (PDF)</a>
+            <div class="resume-cta">
+                <p>Interested in my full professional history?</p>
+                <a href="../assets/Oksana_Cromley_Resume.pdf..pdf" class="btn-download" target="_blank">View My Resume</a>
             </div>
         </section>
 
         <section>
             <h2>Project Spotlight: Orange Coeur</h2>
-            <div class="project-highlight">
-                <h3>The Challenge</h3>
-                <p>Developing a consulting solution for HR data visualization, focusing on making complex data digestible for stakeholders.</p>
+            <div class="project-card">
+                <h3>High-Impact Consulting</h3>
+                <p>This project focused on <strong>HR data visualization</strong> and <strong>UI design</strong>. I worked on creating dashboards that transform complex people-data into actionable insights for decision-makers.</p>
                 
-                <h3>My Contributions</h3>
+                <h4>Key Results:</h4>
                 <ul>
-                    <li>Designed user-centered dashboards for HR performance tracking.</li>
-                    <li>Collaborated on UI/UX mockups to ensure intuitive data navigation.</li>
-                    <li>Integrated feedback loops to align technical output with business goals.</li>
+                    <li>Streamlined data workflows to improve reporting speed.</li>
+                    <li>Designed intuitive UI elements for stakeholder accessibility.</li>
+                    <li>Developed visualization standards for People Operations metrics.</li>
                 </ul>
 
-                <div class="tech-stack">
-                    <span class="tag">UI/UX Design</span>
+                <div class="tech-tags">
                     <span class="tag">HR Analytics</span>
-                    <span class="tag">Stakeholder Management</span>
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Data Visualization</span>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 | Oksana Cromley | i.c.stars Portfolio</p>
+        <p>&copy; 2026 | Oksana Cromley | i.c.stars C59 Portfolio</p>
     </footer>
 
 </body>
